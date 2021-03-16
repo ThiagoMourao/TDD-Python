@@ -29,5 +29,5 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(AssertionError):
             sum('assertionError', 0)
 
-
-unittest.main(verbosity=2)
+if __name__ =='__main__':
+    unittest.main(verbosity=2)
